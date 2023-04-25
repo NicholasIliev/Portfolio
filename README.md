@@ -1,4 +1,4 @@
 # Portfolio-Website 
 
-This is my programming portfolio website, which I have built using React JS.
+This is my programming portfolio website, which I am building using React JS.
 
