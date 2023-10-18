@@ -4,13 +4,13 @@
             "id": "1",
             "src": "./img/product-chain-1.png",
             "title": "Communication",
-            "description": "Effective communication is my forte. I bridge technical and non-technical gaps, actively listen, and foster innovation and adaptability in my projects."
+            "description": "Effective communication is my forte. I bridge technical and non-technical gaps, actively listen, and foster innovation and adaptability in my projects.                                               "
         },
         {
             "id": "2",
             "src": "./img/tag-1.png",
             "title": "Coding",
-            "description": "Coding is my canvas for creation. Mastering languages like C, C++, HTML/CSS, Java, and Python equips me to craft art, solve problems, and bring my imagination to life."
+            "description": "Coding is my canvas for creation. Mastering languages like C, C++, HTML/CSS, Java, and Python equips me to craft art, solve problems, and bring my imagination to life.                                "
         },
         {
             "id": "3",
@@ -22,7 +22,7 @@
             "id": "4",
             "src": "./img/feather-pen-1.png",
             "title": "Multitasking",
-            "description": "Efficient multitasking is my strength. I excel in juggling multiple projects, staying organized, and prioritizing tasks for productive and timely project delivery."
+            "description": "Efficient multitasking is my strength. I excel in juggling multiple projects, staying organized, and prioritizing tasks for productive and timely project delivery.                                      "
         }
     ]
 }

@@ -227,8 +227,7 @@ h3 {
     color: var(--primary);
 }
 .hero--section-description {
-    color: var(--d
-    arkblue);
+    color: var(--darkblue);
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
@@ -311,5 +310,19 @@ h3 {
     font-weight: 400;
     line-height: 32px;
 }
+
 /* Skills Style Ends */
 
+/* Scrollbar For Chromium Based Web Browsers Start*/
+body::-webkit-scrollbar {
+    width: auto;              
+}
+body::-webkit-scrollbar-track {
+    background: auto;     
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 193, 200);
+    border-radius: 20px; 
+    border: 3px solid rgb(185, 193, 200);  
+}
+/* Scrollbar For Chromium Based Web Browsers Ends */
