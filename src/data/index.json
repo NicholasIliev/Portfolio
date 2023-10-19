@@ -24,5 +24,34 @@
             "title": "Multitasking",
             "description": "Efficient multitasking is my strength. I excel in juggling multiple projects, staying organized, and prioritizing tasks for productive and timely project delivery.                                      "
         }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/placeholder-image.png",
+            "title": "Project 1",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "link": "View in Github",
+            "github": "https://github.com/NicholasIliev/C-C-plus-plus",
+            "youtube": "https://www.youtube.com/embed/D0UnqGm_miA?si=7xu2vCCnFVR40dv1"
+        },
+        {
+            "id": "2",
+            "src": "./img/placeholder-image.png",
+            "title": "Project 2",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "link": "View in Github",
+            "github": "https://github.com/NicholasIliev/portfolio",
+            "youtube": "https://www.youtube.com/embed/7X8II6J-6mU?si=uLqYtwUHQwIjisLG"
+        },
+        {
+            "id": "3",
+            "src": "./img/placeholder-image.png",
+            "title": "Project 3",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "link": "View in Github",
+            "github": "https://github.com/NicholasIliev/FitFlow",
+            "youtube": "https://www.youtube.com/embed/RH_V2rtFqYM?si=vK_qsA0kRdSOmw0Q"
+        }
     ]
 }

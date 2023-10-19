@@ -22,42 +22,6 @@ export default function MySkills() {
                     ))}
                 </div>
             </section>
-            {/* Separate Containers for Embedded YouTube Videos
-            <div className="youtube-video">
-                <div className="video-container">
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/D0UnqGm_miA?si=7xu2vCCnFVR40dv1"
-                        title="Embedded YouTube Video"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </div>
-                <div className="video-container">
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/D0UnqGm_miA?si=7xu2vCCnFVR40dv1"
-                        title="Embedded YouTube Video"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </div>
-                <div className="video-container">
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/D0UnqGm_miA?si=7xu2vCCnFVR40dv1"
-                        title="Embedded YouTube Video"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </div>
-            </div> */}
         </>
     );
 }
