@@ -311,6 +311,35 @@ h3 {
     line-height: 32px;
 }
 
+/* Style for the embedded YouTube video container */
+.youtube-video {
+    text-align: center;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-video .video-container {
+    border-radius: 15px; 
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    margin: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Add invisible space between video containers */
+.youtube-video .video-container + .video-container {
+    margin-left: 100px;
+}
+
+.youtube-video iframe {
+    border-radius: 15px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
 /* Skills Style Ends */
 
 /* Scrollbar For Chromium Based Web Browsers Start*/
