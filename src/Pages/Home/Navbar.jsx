@@ -66,7 +66,7 @@ function Navbar() {
                             Home
                         </Link>
                     </li>
-                    <li>
+                    <li className="centered">
                         <Link
                             onClick={closeMenu}
                             activeClass="navbar--active-content"
