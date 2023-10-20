@@ -236,7 +236,7 @@ h3 {
 .hero--section--title--color {
     color: var(--primary);
 }
-.hero--section-description {
+.hero--section--description {
     color: var(--darkblue);
     font-size: 22px;
     font-weight: 400;
@@ -610,11 +610,10 @@ h3 {
     .hero--section--title {
         display: none;
     }
-    .hero--section-description {
-        /* display: none; */
+    .hero--section--description {
         text-align: left;
         padding-bottom: 5%;
-        font-size: 18px;
+        font-size: 20px;
     }
     .footer--content {
         text-align: center;
