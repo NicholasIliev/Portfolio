@@ -17,7 +17,7 @@ export default function HeroSection() {
                             Engineer
                         </h1>
                         {/* Description of the Hero Section */}
-                        <p className="hero--section--description">
+                        <p className="hero--section-description">
                             <br />
                             I'm a 2nd Year Computer Science Student at the University of Manchester.
                             <br /> I'm passionate about building applications and learning new technologies.

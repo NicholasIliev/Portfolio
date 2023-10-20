@@ -236,7 +236,7 @@ h3 {
 .hero--section--title--color {
     color: var(--primary);
 }
-.hero--section--description {
+.hero--section-description {
     color: var(--darkblue);
     font-size: 22px;
     font-weight: 400;
@@ -436,7 +436,7 @@ h3 {
     font-weight: 600;
 }
 .portfolio--section--card:hover path {
-    stroke: #006b6a;
+    stroke: var(--primary);
 }
 .portfolio--section--img--iframe {
     position: relative;
@@ -607,8 +607,15 @@ h3 {
         flex-direction: column-reverse;
         padding-bottom: 70px;
     }
-    .hero--section--title,
-    .hero--section-description,
+    .hero--section--title {
+        display: none;
+    }
+    .hero--section-description {
+        /* display: none; */
+        text-align: left;
+        padding-bottom: 5%;
+        font-size: 18px;
+    }
     .footer--content {
         text-align: center;
     }
