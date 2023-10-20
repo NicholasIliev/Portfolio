@@ -12,7 +12,7 @@ export default function ContactMe() {
                         src="./img/email.png"
                         alt="Email icon"
                         className="icon contact-icon email-icon"
-                        onClick={() => window.open("mailto:nicholas.iliev.2003@gmail.com ", "_blank")}
+                        onClick={() => window.open("mailto:nicholas.iliev.2003@gmail.com", "_blank")}
                     />
                     <p><a href={emailLink} target="_blank" rel="noopener noreferrer" className='contact-info-link'>Email</a></p>
                 </div>
