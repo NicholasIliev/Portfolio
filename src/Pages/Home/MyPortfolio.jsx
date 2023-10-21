@@ -47,7 +47,7 @@ export default function MyPortfolio() {
                                 {/* Title of the project */}
                                 <h3 className="portfolio--section--title">{item.title}</h3>
                                 {/* Description of the project */}
-                                <p className="text-md">{item.description}</p>
+                                <p className="youtube--video--description">{item.description}</p>
                             </div>
                             <a href={item.github} target="_blank" rel="noopener noreferrer" className="text-sm portfolio--link">
                                 {/* Link to the project's GitHub repository with an icon */}
