@@ -1,11 +1,17 @@
 /* Global CSS*/
 
+
+/* Apply the zoom-out effect to the entire page */
+
+
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: "Roboto", sans-serif;
     -moz-osx-font-smoothing: "Roboto", sans-serif;
     font-style: normal;
+    transform: scale(var(--zoom-out-factor));
+    /* transform-origin: top left; */
 }
 h1,
 h2,
@@ -228,11 +234,16 @@ h3 {
 }
 .hero--section--title {
     color: var(--heading-color);
+    text-align: left;
     font-size: 74.667px;
     font-weight: 700;
     line-height: 90px;
     align-self: stretch;
 }
+.hero--section--title--highlight {
+    text-align: left;
+}
+
 .hero--section--title--color {
     color: var(--primary);
 }
@@ -241,6 +252,7 @@ h3 {
     font-size: 22px;
     font-weight: 400;
     line-height: 36px;
+    /* text-align: justify !important; */
 }
 .hero--section--img {
     display: flex;
@@ -354,7 +366,7 @@ h3 {
 
 .youtube--video--description {
     color: var(--darkblue);
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -402,6 +414,7 @@ h3 {
     justify-content: center;
     gap: 42.6px;
     width: 100%;
+    height: 100%;
     flex-wrap: wrap; /* Enable wrapping */
 }
 
@@ -413,6 +426,16 @@ h3 {
 .portfolio--section--img > img {
     width: 100%;
 }
+
+.hide-description {
+    max-height: 0 !important;
+    overflow: hidden !important;
+}
+
+.hide-link {
+    visibility: hidden;
+}
+
 
 .portfolio--section--card {
     display: flex;
@@ -426,10 +449,13 @@ h3 {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     margin-bottom: 20px; /* Added: Space between rows */
-    height: 100%;
+    height: 38rem; /* Fixed height for the cards */
+    overflow: hidden; /* Hide content that exceeds the fixed height */
 }
 
 
+
+/* Updated CSS for the card content */
 .portfolio--section--card--content {
     display: flex;
     padding: 32px;
@@ -437,7 +463,33 @@ h3 {
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
+    max-height: 14rem; /* Set the maximum height */
+    overflow-y: auto;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #a0a0a0 #f0f0f0; /* For Firefox */
+    transition: max-height 0.3s ease-in-out; /* Add transition effect */
+
+    /* Webkit (Chrome, Safari) scrollbar styling */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #f0f0f0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #a0a0a0;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: #808080;
+    }
 }
+
+
+
 .portfolio--section--title {
     color: var(--heading-color);
 }
@@ -455,7 +507,7 @@ h3 {
 .portfolio--section--img--iframe {
     position: relative;
     width: 100%;
-    height: 26rem;
+    height: 18rem;
     border-radius: 15px;
 }
 .portfolio--section--img--iframe iframe {
@@ -579,9 +631,11 @@ h3 {
 
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
-    .hero--section--title {
-        font-size: 68px;
+    .section--title {
+        font-size: 20px;
         line-height: 70px;
+        text-align: center;
+        justify-self: center;
     }
     .skills--section--title {
         font-size: 28px;
@@ -603,18 +657,29 @@ h3 {
         gap: 20px;
     }
     .skills--section--title {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 30px;
     }
     .skills--section--description {
-        font-size: 17.333px;
+        font-size: 14px;
         line-height: 27px;
+        /* text-align: justify; */
     }
+
+
+
+    
 }
 @media only screen and (max-width: 1200px) {
     .btn-outline-primary {
         display: none;
     }
+    .section--title {
+        font-size: 25px;
+        line-height: 40px;
+        justify-content: center;
+    }
+
     .hero--section {
         display: flex;
         flex-direction: column-reverse;
@@ -627,13 +692,24 @@ h3 {
         text-align: left;
         padding-bottom: 5%;
         font-size: 20px;
+    }    
+    .hero--section--description {
+        font-size: 15px;
+        line-height: 28px;
+        text-align: center;
     }
     .footer--content {
         text-align: center;
     }
     .skills--section--container,
     .about--section,
-    .portfolio--section--container,
+    .portfolio--section--container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: max-content;
+        gap: 20px;
+    }
     .portfolio--container-box,
     .footer--link--container,
     .footer--items > ul,
@@ -641,7 +717,7 @@ h3 {
         display: flex;
         flex-direction: column;
     }
-    .skills--section,
+    .skills--section, 
     .portfolio--container,
     .hero--section--content,
     .hero--section--content--box {
@@ -649,6 +725,14 @@ h3 {
     }
     .portfolio--container-box {
         gap: 30px;
+    }
+    .portfolio--section--title{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .section--heading {
+        font-size: 35px;
+        line-height: 30px;
     }
     .skills--section,
     .contact--section,
@@ -693,7 +777,7 @@ h3 {
     .portfolio--section--img--iframe {
         position: relative;
         width: 100%;
-        height: 20rem;
+        height: 16rem;
         border-radius: 15px;
     }
     .portfolio--section--img--iframe iframe {
@@ -701,8 +785,10 @@ h3 {
         top: 0;
         left: 0;
         width: 100%;
-        height: 50%;
+        height: 100%;
     }
+
+
 }
   /* Hamburger menu */
 .nav__hamburger {
@@ -770,5 +856,11 @@ h3 {
     .nav__hamburger.active :nth-child(3) {
         transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
     }
+    .skills-section--heading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    
 }
   /* Responsive Screens Ends */
