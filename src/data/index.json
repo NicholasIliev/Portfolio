@@ -29,29 +29,38 @@
         {
             "id": "1",
             "src": "./img/placeholder-image.png",
-            "title": "Project 1",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "title": "Employee Management System",
+            "description": "The Employee Management System is a full-stack application for managing employee records. It includes a SQL database, a web interface for tasks such as adding, updating, and displaying employees, and features like department and emergency contact filtering.",
             "link": "View in Github",
-            "github": "https://github.com/NicholasIliev/C-C-plus-plus",
-            "youtube": "https://www.youtube.com/embed/D0UnqGm_miA?si=7xu2vCCnFVR40dv1"
+            "github": "https://github.com/NicholasIliev/EmployeeManagementSystem",
+            "youtube": "https://www.youtube.com/embed/MUCbybiP9I0?si=V1o7JtXvQhefwPwz"
         },
         {
             "id": "2",
             "src": "./img/placeholder-image.png",
-            "title": "Project 2",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "title": "LeetCode Clone",
+            "description": "Led the development of a full-stack platform using Flask, Bootstrap, and various APIs. This platform caters to coding enthusiasts, offering a space to enhance problem-solving skills through diverse coding challenges. The site ultimately promotes skill development.",
             "link": "View in Github",
-            "github": "https://github.com/NicholasIliev/portfolio",
-            "youtube": "https://www.youtube.com/embed/7X8II6J-6mU?si=uLqYtwUHQwIjisLG"
+            "github": "https://github.com/NicholasIliev/CO1MP",
+            "youtube": "https://www.youtube.com/embed/Qt5MRgAkBcQ?si=WbuUexDSjG7sjhCG"
         },
         {
             "id": "3",
             "src": "./img/placeholder-image.png",
-            "title": "Project 3",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "title": "Anti-Spoofing Detector",
+            "description": "The Anti-Spoofing Detector is an advanced anti-spoofing/liveness detection system that leverages facial recognition technology. This project is implemented using Python and OpenCV, providing a robust solution to distinguish between real faces and spoof attempts.",
             "link": "View in Github",
-            "github": "https://github.com/NicholasIliev/FitFlow",
-            "youtube": "https://www.youtube.com/embed/RH_V2rtFqYM?si=vK_qsA0kRdSOmw0Q"
+            "github": "https://github.com/NicholasIliev/AntiSpoofingDetector",
+            "youtube": "https://www.youtube.com/embed/exDxBT8eQYA?si=b_H1PuhhPYqmeKQo"
+        },
+        {
+            "id": "4",
+            "src": "./img/placeholder-image.png",
+            "title": "Tic-Tac-Toe AI",
+            "description": "This project implements a Tic Tac Toe game with player vs player (PvP) and player vs unbeatable AI modes. The AI uses the minimax algorithm, making it unbeatable. The game is coded in Python and utilizes the Pygame module for the graphical user interface.",
+            "link": "View in Github",
+            "github": "https://github.com/NicholasIliev/TicTacToeAI",
+            "youtube": "https://www.youtube.com/embed/bygBgzTLxR8?si=viojuKtftlnCHSXA"
         }
     ]
 }

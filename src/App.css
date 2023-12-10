@@ -394,28 +394,34 @@ h3 {
     justify-content: center;
     gap: 42.6px;
     width: 100%;
+    flex-wrap: wrap; /* Enable wrapping */
 }
+
 .portfolio--section--img {
     border-radius: 8px;
     width: 100%;
 }
+
 .portfolio--section--img > img {
     width: 100%;
 }
+
 .portfolio--section--card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    flex: 1 0 0;
+    flex: 0 0 calc(30% - 20px); /* Adjusted: Display three cards in one row with margin */
     background: #fff;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    width: 100%;
+    margin-bottom: 20px; /* Added: Space between rows */
     height: 100%;
 }
+
+
 .portfolio--section--card--content {
     display: flex;
     padding: 32px;
