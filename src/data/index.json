@@ -29,28 +29,28 @@
         {
             "id": "1",
             "src": "./img/placeholder-image.png",
-            "title": "Project 1",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "title": "Anti-Spoofing Detector",
+            "description": "The AntiSpoofingDetector is an advanced anti-spoofing/liveness detection system that leverages facial recognition technology. This project is implemented using Python and OpenCV, providing a robust solution to distinguish between real faces and spoof attempts.",
             "link": "View in Github",
-            "github": "https://github.com/NicholasIliev/C-C-plus-plus",
+            "github": "https://github.com/NicholasIliev/AntiSpoofingDetector",
             "youtube": "https://www.youtube.com/embed/D0UnqGm_miA?si=7xu2vCCnFVR40dv1"
         },
         {
             "id": "2",
             "src": "./img/placeholder-image.png",
-            "title": "Project 2",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "title": "CO1MP - FullStack LeetCode Clone",
+            "description": "COM1P is designed to be a platform for coding enthusiasts to improve their problem-solving skills, share coding solutions, and collaborate on challenging programming tasks. This platform provides a diverse set of coding challenges and a supportive community. ",
             "link": "View in Github",
-            "github": "https://github.com/NicholasIliev/portfolio",
+            "github": "https://github.com/NicholasIliev/CO1MP",
             "youtube": "https://www.youtube.com/embed/7X8II6J-6mU?si=uLqYtwUHQwIjisLG"
         },
         {
             "id": "3",
             "src": "./img/placeholder-image.png",
-            "title": "Project 3",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.",
+            "title": "Tic Tac Toe Game AI",
+            "description": "This project implements a Tic Tac Toe game with player vs player (PvP) and player vs unbeatable AI modes. The AI uses the minimax algorithm, making it unbeatable. The game is coded in Python and utilizes the Pygame module for the graphical user interface.",
             "link": "View in Github",
-            "github": "https://github.com/NicholasIliev/FitFlow",
+            "github": "https://github.com/NicholasIliev/TicTacToeAI",
             "youtube": "https://www.youtube.com/embed/RH_V2rtFqYM?si=vK_qsA0kRdSOmw0Q"
         }
     ]
