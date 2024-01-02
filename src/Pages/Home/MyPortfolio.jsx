@@ -1,7 +1,10 @@
+
+import React, { useState } from 'react';
 import data from "../../data/index.json";
 
 
 export default function MyPortfolio() {
+    const [isOverflowHidden, setIsOverflowHidden] = useState(false);
     return (
         // Portfolio section container with an ID for linking
         <section className="portfolio--section" id="MyPortfolio">
@@ -42,14 +45,14 @@ export default function MyPortfolio() {
                                 className="portfolio--section--img--iframe"
                             ></iframe>
                         </div>
-                        <div className="portfolio--section--card--content">
+                        <div className="portfolio--section--card--content" id="cardContent">
                             <div>
                                 {/* Title of the project */}
                                 <h3 className="portfolio--section--title">{item.title}</h3>
                                 {/* Description of the project */}
                                 <p className="youtube--video--description">{item.description}</p>
                             </div>
-                            <a href={item.github} target="_blank" rel="noopener noreferrer" className="text-sm portfolio--link">
+                            <a href={item.github} target="_blank" rel="noopener noreferrer" className="text-sm portfolio--link" onClick={() => setIsOverflowHidden(!isOverflowHidden)}>
                                 {/* Link to the project's GitHub repository with an icon */}
                                 {item.link}
                                 <svg
