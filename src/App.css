@@ -367,13 +367,13 @@ h3 {
 
 .languages--heading {
   color: var(--heading-color);
-  font-size: 24px; /* Adjust the font size */
+  font-size: 24px;
   font-weight: 600;
-  margin-bottom: 3.333%; /* Adjust the margin */
+  margin-bottom: 3.333%;
 }
 
 .languages {
-  margin-top: 20px; /* Add some spacing at the top */
+  margin-top: 20px;
 }
 
 .skills {
@@ -383,25 +383,20 @@ h3 {
 }
 
 .skills__skill {
-  padding: 0.75rem 1.5rem; /* Adjust the padding */
-  margin-bottom: 0.75rem; /* Adjust the margin */
-  font-size: 1.2rem; /* Adjust the font size */
-  background: rgba(
-    153,
-    153,
-    153,
-    0.2
-  ); /* Adjust the color and opacity as needed */
-  border-radius: 10px; /* Adjust the border radius */
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 10px;
   font-weight: 600;
   color: #777;
-  width: fit-content; /* Allow skills to take the width they need */
-  text-align: center; /* Center the text */
+  width: fit-content;
+  text-align: center;
 }
 
 .skills__skill:hover {
-  background-color: #8a2be2; /* Change the background color on hover */
-  color: #fff; /* Change the text color on hover */
+  background-color: #8a2be2;
+  color: #fff;
 }
 
 /* Skills Style Ends */
@@ -671,8 +666,6 @@ h3 {
     padding-right: 5%; /* Add right padding */
   }
 
-
-
   .skills--section--heading {
     font-size: 54px;
     line-height: 70px;
@@ -697,7 +690,6 @@ h3 {
   }
 }
 @media only screen and (max-width: 1200px) {
-  
   .btn-outline-primary {
     display: none;
   }
@@ -810,9 +802,6 @@ h3 {
   }
   .divider {
     margin: 20px;
-  }
-  .youtube--video--description {
-    display: none;
   }
 }
 /* Hamburger menu */
