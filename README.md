@@ -39,5 +39,3 @@ This portfolio has been deployed with Hostinger and is accessible at [nicholasil
 
 **Note:**
 Please be aware that this code is intended for personal use and showcase purposes. Kindly refrain from directly copying or using the entire codebase for your own projects without proper attribution.
-
-Feel free to explore, modify, and enhance the portfolio to make it uniquely yours. Happy coding!
