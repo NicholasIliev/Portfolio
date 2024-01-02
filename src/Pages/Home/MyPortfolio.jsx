@@ -72,7 +72,7 @@ export default function MyPortfolio() {
                       title={project.title}
                       width="100%"
                       height="100%"
-                      src={project.youtube}
+                      src={`${project.youtube}?autoplay=1&vq=hd1080&hd=1`}
                       frameBorder="0"
                       allowFullScreen
                     ></iframe>

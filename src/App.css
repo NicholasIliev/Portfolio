@@ -643,6 +643,36 @@ h3 {
   }
 }
 @media only screen and (max-width: 1600px) {
+  .skills--section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%; /* Set width to 90% to allow for padding on both sides */
+    gap: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0; /* Remove margin */
+    padding-left: 5%; /* Add left padding */
+    padding-right: 5%; /* Add right padding */
+  }
+
+  .about--section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%; /* Set width to 90% to allow for padding on both sides */
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0; /* Remove margin */
+    padding-left: 5%; /* Add left padding */
+    padding-right: 5%; /* Add right padding */
+  }
+
+
+
   .skills--section--heading {
     font-size: 54px;
     line-height: 70px;
@@ -667,6 +697,7 @@ h3 {
   }
 }
 @media only screen and (max-width: 1200px) {
+  
   .btn-outline-primary {
     display: none;
   }
@@ -679,17 +710,15 @@ h3 {
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 70px;
+    padding-bottom: 50%;
   }
   .hero--section--title {
     display: none;
   }
   .hero--section--description {
     text-align: left;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
     font-size: 20px;
-  }
-  .hero--section--description {
     font-size: 15px;
     line-height: 28px;
     text-align: center;
@@ -727,8 +756,11 @@ h3 {
     line-height: 40px;
   }
   .section--heading {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 30px;
+  }
+  .btn-github {
+    font-size: 14px;
   }
   .skills--section,
   .contact--section,
