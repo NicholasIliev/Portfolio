@@ -9,7 +9,7 @@ export default function ContactMe() {
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
           <img
-            src="./img/email.png"
+            src="./img/email.webp"
             alt="Email icon"
             className="icon contact-icon email-icon"
             onClick={() =>
@@ -29,7 +29,7 @@ export default function ContactMe() {
         </div>
         <div className="contact-info-container">
           <img
-            src="./img/linkedin.png"
+            src="./img/linkedin.webp"
             alt="LinkedIn icon"
             className="icon contact-icon email-icon"
             onClick={() =>

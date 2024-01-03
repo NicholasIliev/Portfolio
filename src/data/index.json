@@ -2,25 +2,25 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/tag-1.png",
+      "src": "./img/tag-1.webp",
       "title": "Communication",
       "description": "Effective communication is my forte. I bridge technical and non-technical gaps, actively listen, and foster innovation and adaptability in my projects.                                                  "
     },
     {
       "id": "2",
-      "src": "./img/feather-pen-1.png",
+      "src": "./img/feather-pen-1.webp",
       "title": "Coding",
       "description": "Coding is my canvas for creation. Mastering languages like C, C++, HTML/CSS, Java, and Python equips me to craft art, solve problems, and bring my imagination to life.                                "
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "src": "./img/feather-pen-2.webp",
       "title": "Problem-solving",
       "description": "I excel at identifying root causes and devising efficient solutions. Whether debugging or other challenges, I rely on patience, creativity, and critical thinking for effective solutions."
     },
     {
       "id": "4",
-      "src": "./img/product-chain-1.png",
+      "src": "./img/product-chain-1.webp",
       "title": "Multitasking",
       "description": "Efficient multitasking is my strength. I excel in juggling multiple projects, staying organized, and prioritizing tasks for productive and timely project delivery.                                      "
     }
@@ -28,7 +28,6 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
       "title": "Employee Management System",
       "description": "The Employee Management System is a full-stack application for managing employee records. It includes a SQL database, a web interface for tasks such as adding, updating, and displaying employees, and features like department and emergency contact filtering.",
       "link": "View in Github",
@@ -37,7 +36,6 @@
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image.png",
       "title": "LeetCode Clone",
       "description": "Led the development of a full-stack platform using Flask, Bootstrap, and various APIs. This platform caters to coding enthusiasts, offering a space to enhance problem-solving skills through diverse coding challenges. The site ultimately promotes skill development.",
       "link": "View in Github",
@@ -46,7 +44,6 @@
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image.png",
       "title": "Anti-Spoofing Detector",
       "description": "The Anti-Spoofing Detector is an advanced anti-spoofing/liveness detection system that leverages facial recognition technology. This project is implemented using Python and OpenCV, providing a robust solution to distinguish between real faces and spoof attempts.",
       "link": "View in Github",
@@ -55,7 +52,6 @@
     },
     {
       "id": "4",
-      "src": "./img/placeholder-image.png",
       "title": "Tic-Tac-Toe AI",
       "description": "This project implements a Tic Tac Toe game with player vs player (PvP) and player vs unbeatable AI modes. The AI uses the minimax algorithm, making it unbeatable. The game is coded in Python and utilizes the Pygame module for the graphical user interface.",
       "link": "View in Github",
